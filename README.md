@@ -1,4 +1,4 @@
-# Find the square root of a number
+# XNO:5- Find the square root of a number
 
 ## AIM:
 To write a program to find the square root of a number.
@@ -15,15 +15,26 @@ To write a program to find the square root of a number.
 5. Return number
 
 ## Program:
-```
-/*
 Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
-*/
-```
+Developed by:KAVINRAJ.S
+RegisterNumber:212223100019
+def newton_method(number,number_iters=100):
+
+    a=float(number)
+    
+    for i in range(number_iters):
+    
+        number=0.5*(number+a/number)
+        
+    return number
+    
+a=int(input())
+
+print("Square root of the number:",newton_method(a))
+
 
 ## Output:
+![Screenshot 2024-09-04 162007](https://github.com/user-attachments/assets/771553d6-bb3e-4a14-98e7-b27ec9096c9d)
 
 
 
